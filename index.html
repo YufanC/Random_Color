@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>随机颜色排列生成器</title>
+    <title>Random Color Generator</title>
     <style>
         * {
             margin: 0;
@@ -64,10 +64,10 @@
             box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
         }
 
-        .color-circle.red { background: linear-gradient(135deg, #ff6b6b, #ee5a52); }
+        .color-circle.red { background: linear-gradient(135deg, #ff3333, #ff0000); }
         .color-circle.yellow { background: linear-gradient(135deg, #ffd93d, #f9ca24); }
         .color-circle.blue { background: linear-gradient(135deg, #74b9ff, #0984e3); }
-        .color-circle.green { background: linear-gradient(135deg, #00b894, #00a085); }
+        .color-circle.green { background: linear-gradient(135deg, #2ed573, #1dd1a1); }
 
         .number {
             position: absolute;
@@ -137,7 +137,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>随机颜色排列生成器</h1>
+        <h1>Random Color Generator</h1>
         
         <div class="colors-container" id="colorsContainer">
             <div class="color-circle red" data-color="red">
@@ -154,7 +154,7 @@
             </div>
         </div>
         
-        <button class="generate-btn" onclick="shuffleColors()">随机排列</button>
+        <button class="generate-btn" onclick="shuffleColors()">Shuffle Colors</button>
     </div>
 
     <script>
